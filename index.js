@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser';
 
 import authRoutes from './routes/authRoutes.js';
 import blogRoutes from './routes/blogRoutes.js';
-import connectDB from "./config/dbconfig.js";
+import connectDB from "./config/dbConfig.js";
 
 const app = express();
 
